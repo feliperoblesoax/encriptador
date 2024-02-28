@@ -1,0 +1,329 @@
+body{
+    width: 90%;
+    background-color: #e5e5e5;;
+}
+
+header{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+main{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#entrada{
+    position: relative;
+    display: block;
+}
+
+#htmlTexto{
+    position: relative;
+    display: block;
+    left: 10%;
+    font-size: 25px;
+    color: #0A3871;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+#condicion{
+    position: relative;
+    display: block;
+    left: 10%;
+    margin-top: 20%;
+}
+
+#contenedor-botones{
+    position: relative;
+    display: block;
+    width: 80%;
+    left: 10%;
+}
+
+.botones{
+    position: relative;
+    height: 47px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    color: white;
+    width: 30%;
+}
+
+#desencriptar{
+    background-color: lightblue;
+    color: #0A3871;
+    width: 30%;
+    margin-left: 3%;
+}
+
+#caja-resultado{
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 70%;
+    background-color: white;
+    border-radius: 32px;
+    top: 10%;
+    right: 10%;
+    text-align: center;
+    overflow: auto;
+}
+
+#mensaje-desencriptado{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0A3871;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#persona{
+    position: relative;
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#ningun-mensaje{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0A3871;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#mensaje-informativo{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    color: #0A3871;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#copiar{
+    background-color: white;
+    color: #0A3871;
+    display: none;
+    margin: 0 auto;
+    margin-top: 100%;
+    width: 80%;
+}
+
+footer{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    color: #0A3871;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+    body{
+        margin: 10px auto;
+    }
+
+    header{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    main{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    #entrada{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #htmlTexto{
+        font-size: 16px;
+        margin: 10px auto;
+        left: 0;
+    }
+
+    #condicion{
+        margin-top: 50%;
+        font-size: 9px;
+    }
+
+    #contenedor-botones{
+        width: 90%;
+        margin: 10px auto;
+        left: 0;
+    }
+
+    #caja-resultado{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+    top: 0;
+    right: 0;
+    text-align: center;
+    }
+
+    #mensaje-desencriptado{
+        position: relative;
+        display: block;
+        font-size: 16px;
+        max-width: 80%;
+    }
+
+    #ningun-mensaje{
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    #mensaje-informativo{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    #encriptar{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    #desencriptar{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #copiar{
+        position: relative;
+        display: none;
+        margin: 10px auto;
+        width: 80%;
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    #persona{
+        display: none;
+    }
+
+    footer{
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:1360px){
+    body{
+        margin: 10px auto;
+    }
+
+    header{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    main{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    #entrada{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #htmlTexto{
+        font-size: 40px;
+        margin: 10px auto;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    #condicion{
+        margin-top: 50%;
+        font-size: 20px;
+    }
+
+    #contenedor-botones{
+        width: 90%;
+        margin: 10px auto;
+        left: 0;
+        text-align: center;
+    }
+
+    #encriptar{
+        display: inline;
+        width: 40%;
+    }
+    
+    #desencriptar{
+        display: inline;
+        width: 40%;
+    }
+
+
+    #caja-resultado{
+        position: relative;
+        display: block;
+        width: 90%;
+        margin: 40px auto;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #mensaje-desencriptado{
+        position: relative;
+        display: block;
+        font-size: 26px;
+        max-width: 80%;
+    }
+
+    #ningun-mensaje{
+        font-size: 26px;
+        padding: 20px;
+    }
+    
+    #mensaje-informativo{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #copiar{
+        position: relative;
+        display: none;
+        margin: 10px auto;
+        width: 80%;
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    #persona{
+        display: none;
+    }
+
+    footer{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

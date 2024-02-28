@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <img src="imagenes/Logo.png" alt="">
+        </header>
+       
+        <main>
+            
+            <div id="entrada">
+                <input type="text" placeholder="Ingrese el texto aquí" id="htmlTexto">
+                <p id="condicion"><img src="iconos/bi--exclamation-circle-fill.svg" alt="Signo de exclamación"> Solo letras minúsculas y sin acentos</p>
+            </div>
+            
+            <div id="contenedor-botones">
+                <input type="button" value="Encriptar" class="botones" id="encriptar" onclick="validar()">
+                <input type="button" value="Desencriptar" class="botones" id="desencriptar" onclick="desencriptarTexto()">
+            </div>
+
+            <div id="caja-resultado">
+                <p id="mensaje-desencriptado" class="mensaje-resaltado"></p>
+                <img src="imagenes/persona.png" alt="Muñeco" id="persona">
+                <p id="ningun-mensaje">Ningún mensaje fue encontrado</p>
+                <p class="mensaje" id="mensaje-informativo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <input type="button" value="Copiar" id="copiar" onclick="copiar()" class="botones">
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Elaboró: <strong>Felipe Robles-2024</strong> </p>
+        </footer>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
